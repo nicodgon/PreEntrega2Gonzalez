@@ -28,7 +28,7 @@ export default function ItemDetailContainer ({title}){
           <div key={id} className="product">
             <h3>{product}</h3>
             <img src={img} alt="monitor" />
-            <span>{price}</span>
+            <span>$ {price}</span>
             <p>{description}</p>
             <button className="btn__prod">Agregar al carrito</button>
             <Link to='/'><button className="btn__prod">Volver</button></Link>
