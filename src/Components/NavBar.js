@@ -1,19 +1,28 @@
-import logo from '../assets/imagenes/logo.png'
-import CartWidget from './CartWidget'
+import logo from "../assets/imagenes/logo.png";
+import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
+import products from '../data/products.json';
 
-export default function NavBar (){
-    return (
-        <header>
-            <nav className='nav__container'>
-                <img src={logo} alt="logo" className='logo'/>
-                <ol className='nav__container--buttons'>
-                    <li><a href="#">Componentes</a></li>
-                    <li><a href="#">Periféricos</a></li>
-                    <li><a href="#">Monitores</a></li>
-                    <li><a href="#">Sillas Gamer</a></li>
-                </ol>
-                <CartWidget/>
-            </nav>
-        </header>
-    )
+export default function NavBar() {
+  const categories = products.map(prod => prod.category)
+  const catNav = new Set(categories)
+  const arrayCatNav = [...catNav]
+
+  return (
+    <header>
+      <nav className="nav__container">
+        <Link to='/'><img src={logo} alt="logo" className="logo" /></Link>
+        {arrayCatNav.map((categ)=>{
+          return(
+            <ol key={categ} className="nav__container--buttons">
+              <li>
+                <Link to={`/category/${categ}`}>{categ}</Link>
+              </li>
+            </ol>
+          )
+        })}
+        <CartWidget/>
+      </nav>
+    </header>
+  );
 }

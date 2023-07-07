@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "category": "Monitores",
+    "product": "Monitor",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/ar/lf24t350fhlczb/gallery/ar-t35f-388813-lf24t350fhlczb-456991993?$650_519_PNG$",
+    "price": 60000,
+    "description": "Monitor Samsung 24pulgadas",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "category": "Monitores",
+    "product": "Monitor",
+    "img": "https://pcexpress.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/y/e/yem8nofjjrn4u6ul_setting_xxx_0_90_end_1000.png",
+    "price": 120000,
+    "description": "Monitor ASUS 24pulgadas",
+    "stock": 6
+  },
+  {
+    "id": 3,
+    "category": "Periféricos",
+    "product": "Teclado",
+    "img": "https://tienda.claro.com.ar/staticContent/Claro/images/catalog/productos/646x1000/7004041_2.jpg",
+    "price": 21000,
+    "description": "Teclado Redragon Kumara",
+    "stock": 9
+  },
+  {
+    "id": 4,
+    "category": "Periféricos",
+    "product": "Mouse",
+    "img": "https://row.hyperx.com/cdn/shop/products/hyperx_pulsefire_haste_black_red_2_back_angled_2048x2048.jpg?v=1669052510",
+    "price": 15000,
+    "description": "Mouse HyperX Pulsefire Haste",
+    "stock": 14
+  },
+  {
+    "id": 5,
+    "category": "Sillas",
+    "product": "Silla Gamer",
+    "img": "https://mauricomputacion.com.ar/images/productos/500x500/24145.webp",
+    "price": 80000,
+    "description": "Silla Gamer Xtrike-me Rojo y Negro",
+    "stock": 6
+  },
+  {
+    "id": 6,
+    "category": "Componentes",
+    "product": "Placa de video",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_811957-MLA43805450065_102020-O.webp",
+    "price": 245000,
+    "description": "Placa de video AMD RX580",
+    "stock": 4
+  },
+  {
+    "id": 7,
+    "category": "Componentes",
+    "product": "Motherboard",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_855362-MLA43774669465_102020-O.webp",
+    "price": 55000,
+    "description": "Motherboard Asus Prime A320m-k",
+    "stock": 7
+  },
+  {
+    "id": 8,
+    "category": "Componentes",
+    "product": "Procesador",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_757121-MLA42821988771_072020-O.webp",
+    "price": 120000,
+    "description": "Procesador Amd Ryzen 5 5500",
+    "stock": 10
+  }
+]
